@@ -89,37 +89,39 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:drawableLeft="@mipmap/apple"
+            android:layout_marginTop="10dp"
             android:text="Continue with Apple"
             android:textAllCaps="false"
             android:fontFamily="sans-serif-light"
-            android:textSize="18dp"
-            android:background=""
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button_bg"
             android:textColor="@color/black"
-            app:cornerRadius="10dp"/>
-
+            android:paddingLeft="10dp"/>
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:drawableLeft="@mipmap/google"
             android:text="Continue with Google"
+            android:paddingLeft="10dp"
             android:fontFamily="sans-serif-light"
-            android:textSize="18dp"
-            android:background=""
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button_bg"
             android:textAllCaps="false"
-            android:textColor="@color/black"
-            app:cornerRadius="10dp"/>
-
+            android:textColor="@color/black"/>
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:drawableLeft="@mipmap/micro"
             android:text="Continue with Microsoft"
+            android:paddingLeft="10dp"
             android:textAllCaps="false"
-            android:background=""
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button_bg"
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
-            android:textSize="18dp"
-            app:cornerRadius="10dp"/>
+            android:textSize="17dp"/>
 
     </LinearLayout>
     <Button

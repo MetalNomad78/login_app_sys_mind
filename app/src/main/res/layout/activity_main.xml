@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="1"
-            android:text="EMAIL"
+            android:text="EMAIL*"
             android:textStyle="bold" />
 
         <EditText
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="1"
-            android:text="PASSWORD"
+            android:text="PASSWORD*"
             android:textStyle="bold" />
 
         <EditText
